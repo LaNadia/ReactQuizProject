@@ -1,10 +1,7 @@
 import React, {useState} from 'react';
 import QuestionCard from './components/QuestionCard';
 import { fetchQuizQuestions, Difficulty, TQuestionState } from './API';
-import './css/style.css'
-import { buildTimeValue } from '@testing-library/user-event/dist/utils';
-
-
+import './css/style.css';
 
 export type TAnswerObject = {
   question: string;
